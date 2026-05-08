@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Static Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple static website using Node.js.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <h3 id="msg"></h3>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("msg").innerHTML =
+                "Hello! Website is running successfully.";
+        }
+    </script>
+
+</body>
+</html>
+
+<!-- npm init -y
+ npm install express
+ node server.js-->
